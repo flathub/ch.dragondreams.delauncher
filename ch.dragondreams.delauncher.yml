@@ -37,7 +37,7 @@ modules:
     buildsystem: simple
     build-options:
       env:
-        ReleaseVersion: '1.29.1'
+        ReleaseVersion: '1.30'
     only-arches:
       - x86_64
 
@@ -61,7 +61,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
-        tag: 'v1.29.1'
+        tag: 'v1.30'
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/eossdk/eossdk-1.17.0.zip
@@ -142,10 +142,10 @@ modules:
         dest-filename: libevdev-1.5.6.tar.bz2
 
       - type: file
-        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/dragonscript/dragonscript-1.5.tar.xz
-        sha256: 4369ff880d0e4f42e9556be5600013b4cd370151123cd5cc3aa622de6593ef58
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/dragonscript/dragonscript-1.5.1.tar.xz
+        sha256: d8914ea2b04437418ef431c88d052bf592f82663e92fa675fb03b0abe8ab6c9a
         dest: extern/dragonscript
-        dest-filename: dragonscript-1.5.tar.xz
+        dest-filename: dragonscript-1.5.1.tar.xz
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/soundtouch/soundtouch-2.1.1.tar.bz2
