@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VERSION=1.29.1
-GIT_TAG=v1.29.1
+VERSION=1.30
+GIT_TAG=v1.30
 BASE_GIT_URL=https://github.com/LordOfDragons
 BASE_URL_ARTIFACTS=https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern
 MANIFEST=ch.dragondreams.delauncher.yml
@@ -52,6 +52,6 @@ writeExternSourceGit denetwork v1.2 denetworkcpp-unix-x64-1.2.tar.bz2
 writeExternSourceGit deremotelauncher v1.1 deremotelauncher-unix-x64-1.1.tar.bz2
 writeExternSource libwebm libwebm-libwebm-1.0.0.32.tar.xz
 writeExternSource libevdev libevdev-1.5.6.tar.bz2
-writeExternSource dragonscript dragonscript-1.5.tar.xz
+writeExternSource dragonscript dragonscript-1.5.1.tar.xz
 writeExternSource soundtouch soundtouch-2.1.1.tar.bz2
 writeExternSource openal openal-soft-1.24.2.tar.xz
