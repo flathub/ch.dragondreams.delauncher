@@ -41,7 +41,7 @@ function writeExternSourceGit() {
 
 writeExternSource eossdk eossdk-1.17.0.zip
 writeExternSource eossdk eossdk_bin_linux-1.17.0.tar.xz
-writeExternSource fox fox-1.7.67.tar.bz2
+writeExternSource fox fox-1.7.85.tar.xz
 writeExternSource liburing liburing-liburing-2.6.tar.bz2
 writeExternSource modio modio-sdk-2025_10.tar.xz
 writeExternSource openxr OpenXR-SDK-release-1.1.46.tar.xz
