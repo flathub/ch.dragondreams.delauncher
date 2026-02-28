@@ -37,7 +37,7 @@ modules:
     buildsystem: simple
     build-options:
       env:
-        ReleaseVersion: '1.30'
+        ReleaseVersion: '1.30.1'
     only-arches:
       - x86_64
 
@@ -61,7 +61,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
-        tag: 'v1.30'
+        tag: 'v1.30.1'
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/eossdk/eossdk-1.17.0.zip
@@ -76,10 +76,10 @@ modules:
         dest-filename: eossdk_bin_linux-1.17.0.tar.xz
 
       - type: file
-        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/fox/fox-1.7.67.tar.bz2
-        sha256: ae4d0ffbb466cb976b726f8042388ac033cee869876932a3dba30d865f78b017
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/fox/fox-1.7.85.tar.xz
+        sha256: 0ceac3c63117043de9b64733e1c0754365556e8141d4e91c4d1487843ad9efb0
         dest: extern/fox
-        dest-filename: fox-1.7.67.tar.bz2
+        dest-filename: fox-1.7.85.tar.xz
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/liburing/liburing-liburing-2.6.tar.bz2
