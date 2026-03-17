@@ -5,8 +5,13 @@ GIT_TAG=v1.30.3
 BASE_GIT_URL=https://github.com/LordOfDragons
 BASE_URL_ARTIFACTS=https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern
 MANIFEST=ch.dragondreams.delauncher.yml
+GIT_COMMITHASH=$( git ls-remote https://github.com/LordOfDragons/dragengine refs/tags/$GIT_TAG | cut -f1 )
 
-sed $MANIFEST.in -e "s/%VERSION%/$VERSION/" -e "s/%TAG%/$GIT_TAG/" >$MANIFEST
+sed $MANIFEST.in \
+	-e "s/%VERSION%/$VERSION/" \
+	-e "s/%TAG%/$GIT_TAG/" \
+	-e "s/%COMMITHASH%/$GIT_COMMITHASH/" \
+	>$MANIFEST
 
 function writeExternSource() {
 	BASE_DIR=$1

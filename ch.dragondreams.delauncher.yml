@@ -62,6 +62,7 @@ modules:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
         tag: 'v1.30.3'
+        commit: 03668e7c283b0fc98a1ecc02d3a5752695ba4411
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/eossdk/eossdk-1.17.0.zip
