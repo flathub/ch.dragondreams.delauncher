@@ -62,3 +62,4 @@ modules:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
         tag: '%TAG%'
+        commit: %COMMITHASH%
