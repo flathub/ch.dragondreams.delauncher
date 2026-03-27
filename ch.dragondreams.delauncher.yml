@@ -96,7 +96,7 @@ modules:
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/openxr/OpenXR-SDK-release-1.1.57.tar.xz
-        sha256: a27c022f169e270ebae408b4b69fbeaa3a4d1e1a3d38221347e7730c8ec8c736  OpenXR-SDK-release-1.1.57.tar.xz
+        sha256: a27c022f169e270ebae408b4b69fbeaa3a4d1e1a3d38221347e7730c8ec8c736
         dest: extern/openxr
         dest-filename: OpenXR-SDK-release-1.1.57.tar.xz
 

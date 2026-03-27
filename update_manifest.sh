@@ -22,7 +22,7 @@ function writeExternSource() {
 	echo '      - type: file' >>$MANIFEST
 	echo "        url: $URL" >>$MANIFEST
 	
-	SHA256SUM=`curl -L -s $URL.sha256sum`
+	SHA256SUM=`curl -L -s $URL.sha256sum | cut -d' ' -f1`
 	echo "        sha256: $SHA256SUM" >>$MANIFEST
 	echo "        dest: extern/$BASE_DIR" >>$MANIFEST
 	echo "        dest-filename: $FILENAME" >>$MANIFEST
