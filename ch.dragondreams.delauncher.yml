@@ -37,7 +37,7 @@ modules:
     buildsystem: simple
     build-options:
       env:
-        ReleaseVersion: '1.30.3'
+        ReleaseVersion: '1.31'
     only-arches:
       - x86_64
 
@@ -61,8 +61,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
-        tag: 'v1.30.3'
-        commit: 03668e7c283b0fc98a1ecc02d3a5752695ba4411
+        tag: 'v1.31'
+        commit: 3430bb17540693f773be356a16536c2065fbc662
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/eossdk/eossdk-1.17.0.zip
@@ -95,10 +95,10 @@ modules:
         dest-filename: modio-sdk-2025_10.tar.xz
 
       - type: file
-        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/openxr/OpenXR-SDK-release-1.1.46.tar.xz
-        sha256: 79064753995cdbdc8c4c56f39755a18ca1ca477362b3045efee323c865990079
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/openxr/OpenXR-SDK-release-1.1.57.tar.xz
+        sha256: a27c022f169e270ebae408b4b69fbeaa3a4d1e1a3d38221347e7730c8ec8c736
         dest: extern/openxr
-        dest-filename: OpenXR-SDK-release-1.1.46.tar.xz
+        dest-filename: OpenXR-SDK-release-1.1.57.tar.xz
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/steamsdk/steamsdk160.tar.xz
