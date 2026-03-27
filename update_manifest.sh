@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VERSION=1.30.3
-GIT_TAG=v1.30.3
+VERSION=1.31
+GIT_TAG="v$VERSION"
 BASE_GIT_URL=https://github.com/LordOfDragons
 BASE_URL_ARTIFACTS=https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern
 MANIFEST=ch.dragondreams.delauncher.yml
@@ -49,7 +49,7 @@ writeExternSource eossdk eossdk_bin_linux-1.17.0.tar.xz
 writeExternSource fox fox-1.7.85.tar.xz
 writeExternSource liburing liburing-liburing-2.6.tar.bz2
 writeExternSource modio modio-sdk-2025_10.tar.xz
-writeExternSource openxr OpenXR-SDK-release-1.1.46.tar.xz
+writeExternSource openxr OpenXR-SDK-release-1.1.57.tar.xz
 writeExternSource steamsdk steamsdk160.tar.xz
 writeExternSource libapng libpng-1.6.29.tar.bz2
 writeExternSource jsoncpp jsoncpp-1.9.6.tar.xz
