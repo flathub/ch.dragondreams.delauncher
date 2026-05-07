@@ -37,7 +37,7 @@ modules:
     buildsystem: simple
     build-options:
       env:
-        ReleaseVersion: '1.31'
+        ReleaseVersion: '1.32'
     only-arches:
       - x86_64
 
@@ -61,8 +61,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
-        tag: 'v1.31'
-        commit: 3430bb17540693f773be356a16536c2065fbc662
+        tag: 'v1.32'
+        commit: 706edd5c676cc2219f2c535d2c9dafdaaa2262e7
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/eossdk/eossdk-1.17.0.zip
@@ -144,7 +144,7 @@ modules:
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/dragonscript/dragonscript-1.5.1.tar.xz
-        sha256: d8914ea2b04437418ef431c88d052bf592f82663e92fa675fb03b0abe8ab6c9a
+        sha256: defdbeb1b9f8e3a9970e78b9600108fc283e3f80f86c907be5c3ecfa4a0e613c
         dest: extern/dragonscript
         dest-filename: dragonscript-1.5.1.tar.xz
 
@@ -159,3 +159,15 @@ modules:
         sha256: e7d36c4b818cf5ac525be1e043c85b60108998417bb972b17dcdb9d5d8c1d7cc
         dest: extern/openal
         dest-filename: openal-soft-1.24.2.tar.xz
+
+      - type: file
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/libopus/opus-1.6.1.tar.xz
+        sha256: b6ecbb75ce5906596f985f93e309f255df24766a4448457023c95eddf961e706
+        dest: extern/libopus
+        dest-filename: opus-1.6.1.tar.xz
+
+      - type: file
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/libfftw/fftw-3.3.10.tar.xz
+        sha256: 7112359fdd881349b7c719728b01e0bc6c7812fa2dabf8f921a817363f36628c
+        dest: extern/libfftw
+        dest-filename: fftw-3.3.10.tar.xz
