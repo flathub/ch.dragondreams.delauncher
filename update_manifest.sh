@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=1.32
+VERSION=1.32.1
 GIT_TAG="v$VERSION"
 BASE_GIT_URL=https://github.com/LordOfDragons
 BASE_URL_ARTIFACTS=https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern
