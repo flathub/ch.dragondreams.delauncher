@@ -37,7 +37,7 @@ modules:
     buildsystem: simple
     build-options:
       env:
-        ReleaseVersion: '1.32.3'
+        ReleaseVersion: '1.33'
     only-arches:
       - x86_64
 
@@ -61,8 +61,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
-        tag: 'v1.32.3'
-        commit: 6b0994a091f394811f15592964dd26e96be527e4
+        tag: 'v1.33'
+        commit: 062cd1b81821cb524afd2465a3f054db4d779289
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/eossdk/eossdk-1.17.0.zip
@@ -78,7 +78,7 @@ modules:
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/fox/fox-1.7.85.tar.xz
-        sha256: 0ceac3c63117043de9b64733e1c0754365556e8141d4e91c4d1487843ad9efb0
+        sha256: 
         dest: extern/fox
         dest-filename: fox-1.7.85.tar.xz
 
