@@ -78,7 +78,7 @@ modules:
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/fox/fox-1.7.85.tar.xz
-        sha256: 
+        sha256: 0ceac3c63117043de9b64733e1c0754365556e8141d4e91c4d1487843ad9efb0
         dest: extern/fox
         dest-filename: fox-1.7.85.tar.xz
 
