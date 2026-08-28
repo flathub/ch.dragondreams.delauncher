@@ -143,10 +143,10 @@ modules:
         dest-filename: libevdev-1.5.6.tar.bz2
 
       - type: file
-        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/dragonscript/dragonscript-1.5.1.tar.xz
-        sha256: defdbeb1b9f8e3a9970e78b9600108fc283e3f80f86c907be5c3ecfa4a0e613c
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/dragonscript/dragonscript-1.5.2.tar.xz
+        sha256: 77bdb744106bc3c767cad265eae9491ee7b3216189c956173d0cb9142512b134
         dest: extern/dragonscript
-        dest-filename: dragonscript-1.5.1.tar.xz
+        dest-filename: dragonscript-1.5.2.tar.xz
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/soundtouch/soundtouch-2.1.1.tar.xz

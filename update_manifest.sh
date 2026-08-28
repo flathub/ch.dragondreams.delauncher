@@ -57,7 +57,7 @@ writeExternSourceGit denetwork v1.2 denetworkcpp-unix-x64-1.2.tar.bz2
 writeExternSourceGit deremotelauncher v1.1 deremotelauncher-unix-x64-1.1.tar.bz2
 writeExternSource libwebm libwebm-libwebm-1.0.0.32.tar.xz
 writeExternSource libevdev libevdev-1.5.6.tar.bz2
-writeExternSource dragonscript dragonscript-1.5.1.tar.xz
+writeExternSource dragonscript dragonscript-1.5.2.tar.xz
 writeExternSource soundtouch soundtouch-2.1.1.tar.xz
 writeExternSource openal openal-soft-1.24.2.tar.xz
 writeExternSource libopus opus-1.6.1.tar.xz
