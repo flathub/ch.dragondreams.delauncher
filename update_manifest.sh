@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=1.33
+VERSION=1.34
 GIT_TAG="v$VERSION"
 BASE_GIT_URL=https://github.com/LordOfDragons
 BASE_URL_ARTIFACTS=https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern
@@ -58,7 +58,11 @@ writeExternSourceGit deremotelauncher v1.1 deremotelauncher-unix-x64-1.1.tar.bz2
 writeExternSource libwebm libwebm-libwebm-1.0.0.32.tar.xz
 writeExternSource libevdev libevdev-1.5.6.tar.bz2
 writeExternSource dragonscript dragonscript-1.5.1.tar.xz
-writeExternSource soundtouch soundtouch-2.1.1.tar.bz2
+writeExternSource soundtouch soundtouch-2.1.1.tar.xz
 writeExternSource openal openal-soft-1.24.2.tar.xz
 writeExternSource libopus opus-1.6.1.tar.xz
 writeExternSource libfftw fftw-3.3.10.tar.xz
+writeExternSource libdav1d dav1d-1.5.4.tar.xz
+writeExternSource libyuv libyuv-main.tar.xz
+writeExternSource libavif libavif-1.4.2.tar.xz
+writeExternSource svtav1 svt-av1-2.1.0.tar.xz

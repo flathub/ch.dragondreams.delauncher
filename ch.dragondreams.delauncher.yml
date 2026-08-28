@@ -37,7 +37,7 @@ modules:
     buildsystem: simple
     build-options:
       env:
-        ReleaseVersion: '1.33'
+        ReleaseVersion: '1.34'
     only-arches:
       - x86_64
 
@@ -61,8 +61,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
-        tag: 'v1.33'
-        commit: 062cd1b81821cb524afd2465a3f054db4d779289
+        tag: 'v1.34'
+        commit: ddda6fb5769631d913167116bb88debcb455e8ee
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/eossdk/eossdk-1.17.0.zip
@@ -149,10 +149,10 @@ modules:
         dest-filename: dragonscript-1.5.1.tar.xz
 
       - type: file
-        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/soundtouch/soundtouch-2.1.1.tar.bz2
-        sha256: f4b70ddf4d6203487702ceaa475baef42f71a5b1ae4a90578f5d46f775c60fe1
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/soundtouch/soundtouch-2.1.1.tar.xz
+        sha256: 6d48d604bcf6b2d77dd038c02aaa54340a4e6ab29a52c448464a7a624f021fcb
         dest: extern/soundtouch
-        dest-filename: soundtouch-2.1.1.tar.bz2
+        dest-filename: soundtouch-2.1.1.tar.xz
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/openal/openal-soft-1.24.2.tar.xz
@@ -171,3 +171,27 @@ modules:
         sha256: 7112359fdd881349b7c719728b01e0bc6c7812fa2dabf8f921a817363f36628c
         dest: extern/libfftw
         dest-filename: fftw-3.3.10.tar.xz
+
+      - type: file
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/libdav1d/dav1d-1.5.4.tar.xz
+        sha256: 686616b7c69eb88d44459391ab25cac13b6647a3b288835c5784e71c1514a5c5
+        dest: extern/libdav1d
+        dest-filename: dav1d-1.5.4.tar.xz
+
+      - type: file
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/libyuv/libyuv-main.tar.xz
+        sha256: 0e1418e5bc17d402711b06406a57906571c3dbf3a7a1fe595f7bbec96f8598a7
+        dest: extern/libyuv
+        dest-filename: libyuv-main.tar.xz
+
+      - type: file
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/libavif/libavif-1.4.2.tar.xz
+        sha256: 6125468d7411cab5baad97cd03e5ae415637bd9b11ffe9fddd10d10d82f24f43
+        dest: extern/libavif
+        dest-filename: libavif-1.4.2.tar.xz
+
+      - type: file
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/svtav1/svt-av1-2.1.0.tar.xz
+        sha256: 519a7fbcd8144b180315d183de8f1a107091fb08eda7cb4a8231eacbc7962038
+        dest: extern/svtav1
+        dest-filename: svt-av1-2.1.0.tar.xz
