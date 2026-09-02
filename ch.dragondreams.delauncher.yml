@@ -37,7 +37,7 @@ modules:
     buildsystem: simple
     build-options:
       env:
-        ReleaseVersion: '1.34'
+        ReleaseVersion: '1.34.2'
     only-arches:
       - x86_64
 
@@ -61,8 +61,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/LordOfDragons/dragengine.git
-        tag: 'v1.34'
-        commit: ddda6fb5769631d913167116bb88debcb455e8ee
+        tag: 'v1.34.2'
+        commit: 4302444f1800ed3de66f45a1be4ac2cefe8b7747
 
       - type: file
         url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/eossdk/eossdk-1.17.0.zip
