@@ -120,13 +120,13 @@ modules:
 
       - type: file
         url: https://github.com/LordOfDragons/denetwork/releases/download/v1.2/denetworkcpp-unix-x64-1.2.tar.bz2
-        sha256: a2e748945704b8bd011d8127c0cb41a248888350df38b57b5e408ecce32e62ad
+        sha256: ff608d43b23601a2699f6a4cd96491732797550e42e44a00adb3823a84551da0
         dest: extern/denetwork
         dest-filename: denetworkcpp-unix-x64-1.2.tar.bz2
 
       - type: file
         url: https://github.com/LordOfDragons/deremotelauncher/releases/download/v1.1/deremotelauncher-unix-x64-1.1.tar.bz2
-        sha256: 8ada70860bb015ee34883cd7d7f710f76070272d7eedee57021bccec1924d705
+        sha256: 26cabffe65c3372fecf7f90c9c840605227b4b76ce8871d47e85fcc9107a7063
         dest: extern/deremotelauncher
         dest-filename: deremotelauncher-unix-x64-1.1.tar.bz2
 
@@ -195,3 +195,10 @@ modules:
         sha256: 519a7fbcd8144b180315d183de8f1a107091fb08eda7cb4a8231eacbc7962038
         dest: extern/svtav1
         dest-filename: svt-av1-2.1.0.tar.xz
+
+      - type: file
+        url: https://dragondreams.s3.eu-central-1.amazonaws.com/dragengine/extern/msdfgen/msdfgen-1.13.0.tar.xz
+        sha256: <?xml
+<Error><Code>AccessDenied</Code><Message>Access
+        dest: extern/msdfgen
+        dest-filename: msdfgen-1.13.0.tar.xz

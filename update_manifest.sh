@@ -66,3 +66,4 @@ writeExternSource libdav1d dav1d-1.5.4.tar.xz
 writeExternSource libyuv libyuv-main.tar.xz
 writeExternSource libavif libavif-1.4.2.tar.xz
 writeExternSource svtav1 svt-av1-2.1.0.tar.xz
+writeExternSource msdfgen msdfgen-1.13.0.tar.xz
